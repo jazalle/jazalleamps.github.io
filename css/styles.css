@@ -15,7 +15,7 @@ body, header, nav, main, footer, img, h1, h3, ul {
 
 /* Style rules for body and images */
 body {
-  background-color: #f6eee4;
+  background-color: #F2C177;
 }
 
 
@@ -64,7 +64,7 @@ img {
 
 /* Style rule for navigation area */
 nav {
-  background-color: #2a1f14;
+  background-color: #FF9473;
 }
 
 
@@ -80,9 +80,9 @@ nav ul {
 
 nav li {
   display: block;
-  border-top: 0.5px solid #f6eee4;
+  border-top: 0.5px solid #FFEDD9;
   font-size: 1.5em;
-  font-family: Geneva, Arial, sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: bold;
 }
 
@@ -91,7 +91,7 @@ nav li {
 
 nav li a {
   display: block;
-  color: #f6eee4;
+  color: #FFEDD9;
   padding: 0.5em 2em;
   text-decoration: none;
 }
@@ -228,8 +228,8 @@ nav li a {
 
 
 nav li a:hover {
-    color: #2a1f14;
-    background-color: #f6eee4;
+    color: #FF9473;
+    background-color: #FFEDD9;
 }
 
 
@@ -247,7 +247,7 @@ nav li a:hover {
 
 
 body {
-    background: linear-gradient(#f6eee4, #78593a);
+    background: linear-gradient(#F2C177, #FFF7E3);
 }
 
 
@@ -258,7 +258,7 @@ body {
 
 
 main {
-    background-color: #f6eee4;
+    background-color: #F2C177;
 }
 
 
