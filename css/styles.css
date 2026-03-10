@@ -1,24 +1,26 @@
  /*  
 Author: Jazalle Amps
 File Name: styles.css
-Date: 02/15/2026
+Date: 05/06/2026
 */
 
 
+
+
 /* CSS Reset */
-body, header, nav, main, footer, img, h1, h3, ul, aside, figure, figcaption {
+body, header, nav, main, footer, img, h1, h3, ul {
   margin: 0;
   padding: 0;
   border: 0;
 }
 
 
+
+
 /* Style rules for body and images */
 body {
-  background-color: #f6eee4;
+  background-color: #F2C177;
 }
-
-
 
 
 img {
@@ -27,9 +29,9 @@ img {
 }
 
 
+
+
 /* Style rules for mobile viewport */
-
-
 
 
 /* Style rules to show mobile class and hide tab-desk class */
@@ -62,12 +64,12 @@ img {
 }
 
 
+
+
 /* Style rule for navigation area */
 nav {
-  background-color: #2a1f14;
+  background-color: #FF9473;
 }
-
-
 
 
 nav ul {
@@ -76,25 +78,23 @@ nav ul {
 }
 
 
-
-
 nav li {
   display: block;
-  border-top: 0.5px solid #f6eee4;
+  border-top: 0.5px solid #FFEDD9;
   font-size: 1.5em;
-  font-family: Geneva, Arial, sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: bold;
 }
 
 
-
-
 nav li a {
   display: block;
-  color: #f6eee4;
+  color: #FFEDD9;
   padding: 0.5em 2em;
   text-decoration: none;
 }
+
+
 
 
 /* Style rules for main content */
@@ -119,9 +119,11 @@ main ul {
 }
 
 
+
+
 /* Style rules for class and id selectors */
 .link {
-  color: #4d3319;
+  color: #FF9473;
   text-decoration: none;
   font-weight: bold;
   font-style: italic;
@@ -140,28 +142,6 @@ main ul {
 }
 
 
-aside {
-   text-align: center;
-   font-size: 1.5em;
-   font-weight: bold;
-   text-shadow: 4px 4px 10px #c5a687;
-}
-
-
-figure {
-   border: 0;
-   box-shadow: 0;
-   max-width: 400px;
-   margin: 2% auto;
-}
-
-
-figcaption {
-   padding: 2%;
-   border-top: 4px solid hsl(30, 35%, 12%);
-}
-
-
 #info ul {
   margin-left: 10%;
 }
@@ -173,7 +153,7 @@ figcaption {
 
 
 .tel-link {
-    background-color: #2a1f14;
+    background-color: #FF9473;
     padding: 2%;
     width: 80%;
     margin: 0 auto;
@@ -181,30 +161,38 @@ figcaption {
 
 
 .tel-link a {
-    color: #f6eee4;
+    color: #FF9473;
     text-decoration: none;
     font-weight: bold;
 }
+
+
 
 
 /* Style rules for footer content */
 footer {
   text-align: center;
   font-size: 0.85em;
-  background-color: #2a1f14;
-  color: #f6eee4;
+  background-color: #FF9473;
+  color: #FFEDD9;
   padding: 1% 0%;
 }
 
 
+
+
 footer a {
-  color: #f3e6d8;
+  color: #FFEDD9;
   text-decoration: none;
 }
 
 
+
+
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 620px), print {
+
+
 
 
   /* Tablet Viewport: Show tab-desk class, hide mobile class */
@@ -216,6 +204,8 @@ footer a {
   .mobile {
     display: none;
   }
+
+
 
 
 /* Tablet Viewport: Style rules for nav area */
@@ -231,23 +221,15 @@ nav li a {
 }
 
 
-.grid {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 10px;
-  }
-
-
-aside {
-    grid-column: 1 / span 2;
-  }
-
-
 }
+
+
 
 
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 1000px), print {
+
+
 
 
 /* Desktop Viewport: Style rules for nav area */
@@ -262,10 +244,16 @@ nav li a {
 
 
 nav li a:hover {
-    color: #2a1f14;
-    background-color: #f6eee4;
-    opacity: 0.5;
+    color: #FF9473;
+    background-color: #FFEDD9;
 }
+
+
+body {
+    background: linear-gradient(#F2C177, #FFF7E3);
+}
+
+
 
 
 /* Desktop Viewport: Style rules for main content */
@@ -274,27 +262,17 @@ nav li a:hover {
 }
 
 
-.grid {
-    grid-template-columns: auto auto auto;
-    grid-gap: 30px;
 }
 
 
-aside {
-    grid-column: 1 / span 3;
-    font-size: 2em;
-}
-
-
-}
 
 
 /* Media Query for Large Desktop Viewports */
 @media screen and (min-width: 1921px), print {
 
 
-body {
-    background: linear-gradient(#f6eee4, #78593a);
+  body {
+    background: linear-gradient(#F2C177, #FFF7E3);
 }
 
 
@@ -305,17 +283,8 @@ body {
 
 
 main {
-    background-color: #f6eee4;
+    background-color: #F2C177;
 }
 
 
-.grid {
-    grid-template-columns: auto auto auto auto;
-  }
-
-
-  aside {
-    grid-column: 1 / span 4;
-    font-size: 3em;
-  }
 }
