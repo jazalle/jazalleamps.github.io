@@ -22,6 +22,10 @@ img {
   display: block;
 }
 
+.smaller-image {
+  width: auto;
+  height: 1000px;
+}
 
 /* Style rules for mobile viewport */
 
@@ -276,11 +280,10 @@ main {
   justify-items: center
 }
 
-#site-content .img-captioned {
+#site-content, .img-captioned {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 }
-
