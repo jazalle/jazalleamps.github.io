@@ -102,6 +102,13 @@ main ul {
 }
 
 
+/* Viewport for canva */
+.canva {
+    border: 5px solid #FF9473;
+	width: 95%;
+	height: 50%
+}
+
 /* Style rules for class and id selectors */
 .link {
   color: #FF9473;
@@ -203,7 +210,6 @@ nav li a {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 10px;
-    
   }
 
 aside {
