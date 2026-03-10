@@ -11,6 +11,15 @@ body, header, nav, main, footer, img, h1, h3, ul, aside, figure, figcaption {
   border: 0;
 }
 
+header h1 {
+  color: #2D4A43;
+  font-family: "Fascinate", system-ui;
+}
+
+header h3 {
+  color: #2D4A43;
+  font-family: "Aleo", serif;
+}
 
 /* Style rules for body and images */
 body {
