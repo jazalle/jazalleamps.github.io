@@ -18,9 +18,6 @@ body {
   background-color: #F2C177;
 }
 
-
-
-
 img {
   max-width: 100%;
   display: block;
@@ -29,20 +26,14 @@ img {
 
 /* Style rules for mobile viewport */
 
-
-
-
 /* Style rules to show mobile class and hide tab-desk class */
 .mobile {
   display: block;
 }
 
-
 .tab-desk {
   display: none;
 }
-
-
 
 
 /* Style rules for header area */
@@ -51,11 +42,9 @@ img {
   text-align: center;
 }
 
-
 .mobile h1 {
    font-family: 'Emblema One', cursive;
 }
-
 
 .mobile h3 {
    font-family: 'Lora', serif;
@@ -67,16 +56,10 @@ nav {
   background-color: #FF9473;
 }
 
-
-
-
 nav ul {
   list-style-type: none;
   text-align: center;
 }
-
-
-
 
 nav li {
   display: block;
@@ -85,9 +68,6 @@ nav li {
   font-family: "Alexandria", sans-serif;
   font-weight: bold;
 }
-
-
-
 
 nav li a {
   display: block;
@@ -103,16 +83,13 @@ main {
   font-family: 'Lora', serif;
 }
 
-
 main p {
   font-size: 1.25em;
 }
 
-
 main h3 {
   padding-top: 2%;
 }
-
 
 main ul {
   list-style-type: square;
@@ -121,12 +98,11 @@ main ul {
 
 /* Style rules for class and id selectors */
 .link {
-  color: #4d3319;
+  color: #FF9473;
   text-decoration: none;
   font-weight: bold;
   font-style: italic;
 }
-
 
 .action {
   font-size: 1.75em;
@@ -134,32 +110,27 @@ main ul {
   text-align: center;
 }
 
-
 .round {
   border-radius: 6px;
 }
-
 
 #info ul {
   margin-left: 10%;
 }
 
-
 #contact {
   text-align: center;
 }
 
-
 .tel-link {
-    background-color: #2a1f14;
+    background-color: #FF9473;
     padding: 2%;
     width: 80%;
     margin: 0 auto;
 }
 
-
 .tel-link a {
-    color: #f6eee4;
+    color: #FF9473;
     text-decoration: none;
     font-weight: bold;
 }
@@ -169,14 +140,14 @@ main ul {
 footer {
   text-align: center;
   font-size: 0.85em;
-  background-color: #2a1f14;
-  color: #f6eee4;
+  background-color: #FF9473;
+  color: #FFEDD9;
   padding: 1% 0%;
 }
 
 
 footer a {
-  color: #f3e6d8;
+  color: #FFEDD9;
   text-decoration: none;
 }
 
@@ -190,7 +161,6 @@ footer a {
     display: block;
   }
 
-
   .mobile {
     display: none;
   }
@@ -203,11 +173,9 @@ nav li {
     font-size: 1.25em;
 }
 
-
 nav li a {
     padding: 0.5em;
 }
-
 
 }
 
@@ -221,15 +189,17 @@ nav li {
     font-size: 1.5em;
 }
 
-
 nav li a {
     padding: 0.5em 1.5em;
 }
 
-
 nav li a:hover {
     color: #FF9473;
     background-color: #FFEDD9;
+}
+
+body {
+    background: linear-gradient(#F2C177, #FFF7E3);
 }
 
 
@@ -238,31 +208,23 @@ nav li a:hover {
     margin-left: 5%;
 }
 
-
 }
 
 
 /* Media Query for Large Desktop Viewports */
 @media screen and (min-width: 1921px), print {
 
-
-body {
+  body {
     background: linear-gradient(#F2C177, #FFF7E3);
 }
-
 
 #wrapper {
     width: 1920px;
     margin: 0 auto;
 }
 
-
 main {
     background-color: #F2C177;
 }
 
-
 }
-
-
-
