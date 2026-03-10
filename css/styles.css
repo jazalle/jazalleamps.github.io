@@ -150,6 +150,12 @@ figcaption {
    font-family: "Aleo", serif;
 }
 
+#example {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+}
+
 #info ul {
   margin-left: 10%;
 }
