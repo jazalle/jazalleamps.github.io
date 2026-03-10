@@ -270,4 +270,18 @@ main {
     font-size: 3em; 
   }
 
+#site-content {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  justify-items: center
 }
+
+#site-content .img-captioned {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+}
+
