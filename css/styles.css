@@ -24,7 +24,7 @@ img {
 
 .smaller-image {
   width: auto;
-  height: 1000px;
+  height: auto;
 }
 
 /* Style rules for mobile viewport */
@@ -83,7 +83,7 @@ nav li a {
 /* Style rules for main content */
 main {
   padding: 2%;
-  font-family: 'Lora', serif;
+  font-family: "Aleo", serif;
 }
 
 main p {
