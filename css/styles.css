@@ -203,6 +203,7 @@ nav li a {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 10px;
+    
   }
 
 aside {
@@ -231,7 +232,27 @@ nav li a:hover {
 
 .grid {
     grid-template-columns: auto auto;
-    grid-gap: 60px;
+    margin: auto;
+}
+
+  .wrapper {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+  grid-auto-rows: 100px;
+  grid-template-areas:
+    "a a a a b b b b"
+    "a a a a b b b b"
+    "c c c c d d d d"
+    "c c c c d d d d";
+  align-items: start;
+}
+
+.item1 {
+  grid-area: a;
+}
+.item2 {
+  grid-area: b;
 }
 
 aside {
@@ -243,13 +264,13 @@ body {
     background: linear-gradient(#F2C177, #FFF7E3);
 }
 
+}
 
 /* Desktop Viewport: Style rules for main content */
 #info ul {
     margin-left: 5%;
 }
 
-}
 
 
 /* Media Query for Large Desktop Viewports */
