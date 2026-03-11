@@ -262,7 +262,7 @@ nav li a {
 .grid {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 10px;
+    grid-gap: 5px;
   }
 
 aside {
