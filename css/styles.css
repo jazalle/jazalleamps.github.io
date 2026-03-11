@@ -159,8 +159,11 @@ aside {
 }
 
 #button ul {
-  list-style-type: none;
-  text-align: center;
+  list-style-type: none; 
+  padding: 10px 15px;
+  margin: 0;
+  display: flex; 
+  gap: 10px; 
 }
 
 #button li {
@@ -177,6 +180,16 @@ aside {
   color: #D3F7D0;
   padding: 0.5em 2em;
   text-decoration: none;
+  text-decoration: none; 
+  border: 1px solid #D3F7D0;
+  border-radius: 5px; 
+  text-align: center; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+
+.button-list-container li a:hover {
+  transform: scale(1.05); 
 }
 
 figure, img {
