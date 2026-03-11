@@ -179,6 +179,7 @@ aside {
     text-align: center;   
     text-decoration: none; 
     font-size: 1.2rem;
+    font-family: "Alexandria", sans-serif;
     border-radius: 20%;     
     cursor: pointer;
     transition: transform 0.3s;
@@ -232,6 +233,12 @@ figcaption {
 }
 
 #contact a {
+  color: #542424;
+  text-decoration: none;
+}
+
+footer a {
+  color: #FFEDD9;
   text-decoration: none;
 }
 
