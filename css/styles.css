@@ -168,7 +168,6 @@ aside {
 
 #button li {
   display: block;
-  border-top: 0.5px solid #D3F7D0;
   font-size: 1.5em;
   font-family: "Alexandria", sans-serif;
   font-weight: bold;
@@ -180,7 +179,6 @@ aside {
   color: #D3F7D0;
   padding: 0.5em 2em;
   text-decoration: none;
-  text-decoration: none; 
   border: 1px solid #D3F7D0;
   border-radius: 5px; 
   text-align: center; 
