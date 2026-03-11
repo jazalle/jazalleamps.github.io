@@ -154,12 +154,12 @@ aside {
   font-weight: bold; 
 }
 
-section ul {
+#button ul {
   list-style-type: none;
   text-align: center;
 }
 
-section li {
+#button li {
   display: block;
   border-top: 0.5px solid #FFEDD9;
   font-size: 1.5em;
@@ -167,7 +167,7 @@ section li {
   font-weight: bold;
 }
 
-section li a {
+#button li a {
   display: block;
   color: #FFEDD9;
   padding: 0.5em 2em;
