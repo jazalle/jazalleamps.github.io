@@ -154,6 +154,10 @@ aside {
   font-weight: bold; 
 }
 
+#button {
+  background-color: #2F5052;
+}
+
 #button ul {
   list-style-type: none;
   text-align: center;
@@ -161,7 +165,7 @@ aside {
 
 #button li {
   display: block;
-  border-top: 0.5px solid #FFEDD9;
+  border-top: 0.5px solid #D3F7D0;
   font-size: 1.5em;
   font-family: "Alexandria", sans-serif;
   font-weight: bold;
@@ -169,7 +173,7 @@ aside {
 
 #button li a {
   display: block;
-  color: #FFEDD9;
+  color: #D3F7D0;
   padding: 0.5em 2em;
   text-decoration: none;
 }
