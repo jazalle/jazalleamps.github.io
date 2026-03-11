@@ -116,7 +116,12 @@ main p {
 
 section {
   text-align: center;
+  display: flex;
+  justify-content: center; /* Centers children horizontally */
+  align-items: center;     /* Centers children vertically (if height is defined) */
+  flex-direction: column;  /* Stacks paragraphs vertically */
 }
+
 
 main h3 {
   padding-top: 2%;
