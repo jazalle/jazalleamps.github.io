@@ -165,7 +165,7 @@ aside {
 #button {
     list-style: none;      
     padding: 10px 20px;            
-    margin: 4px 2px;;  
+    margin: 0 auto;  
     margin-bottom: 15px;          
     display: inline-block;         
     align-items: center;  
