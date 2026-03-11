@@ -120,6 +120,7 @@ section {
   justify-content: center; /* Centers children horizontally */
   align-items: center;     /* Centers children vertically (if height is defined) */
   flex-direction: column;  /* Stacks paragraphs vertically */
+  margin-bottom: 20px; 
 }
 
 
