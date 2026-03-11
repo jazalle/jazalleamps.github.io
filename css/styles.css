@@ -104,7 +104,6 @@ main {
   padding: 2%;
   color: #542424;
   font-family: "Aleo", serif;
-  t
 }
 
 main p {
@@ -163,7 +162,7 @@ aside {
   font-weight: bold; 
 }
 
-.button-list {
+#button {
     list-style: none;      
     padding: 0;            
     margin: 0;            
@@ -172,7 +171,7 @@ aside {
     gap: 10px;            
 }
 
-.button-list li a {
+#button li a {
     display: block;      
     background-color: #2F5052; 
     color: #D3F7D0;          
@@ -189,7 +188,7 @@ aside {
     box-sizing: border-box; 
 }
 
-.button-list-container li a:hover {
+#button li a:hover {
   transform: scale(1.05); 
 }
 
