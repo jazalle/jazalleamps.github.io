@@ -334,9 +334,18 @@ body {
     margin-bottom: 20px; 
   }
 
+   div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+
   main {
     background-color: #F2C177;
   }
+
 
   figure {
   max-width: 100%; 
