@@ -215,6 +215,26 @@ figcaption {
   text-align: center;
 }
 
+#contact aside {
+  color: #2D4A43;
+  font-family: "Audiowide", sans-serif;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold; 
+}
+
+#contact p {
+  font-size: 1.25em;
+  margin: auto;
+  text-align: center;
+  color: #542424;
+  font-family: "Aleo", serif; 
+}
+
+#contact a {
+  text-decoration: none;
+}
+
 .tel-link {
   background-color: #FF9473;
   padding: 2%;
