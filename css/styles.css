@@ -5,7 +5,7 @@ Date: 05/06/2026
 */
 
 /* CSS Reset */
-body, header, nav, main, footer, img, h1, h3, ul, aside, figure, figcaption {
+body, header, nav, main, footer, img, h1, h3, ul, aside, figure, figcaption, section, article {
   margin: 0;
   padding: 0; 
   border: 0;
@@ -114,7 +114,7 @@ main p {
   font-family: "Aleo", serif;
 }
 
-section {
+article, section {
   text-align: center;
   display: flex;
   justify-content: center; /* Centers children horizontally */
