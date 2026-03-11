@@ -122,6 +122,10 @@ main ul {
   list-style-type: square;
 }
 
+div {
+  display: flex;
+  justify-content: space-between;
+}
 
 /* Viewport for canva */
 .canva {
