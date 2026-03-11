@@ -172,7 +172,7 @@ aside {
 }
 
 #button li a {
-    display: block;      
+    display: flex;      
     background-color: #2F5052; 
     color: #D3F7D0;          
     padding: 15px 35px;        
