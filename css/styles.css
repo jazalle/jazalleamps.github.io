@@ -17,7 +17,7 @@ header h1 {
 }
 
 header h3 {
-  color: #2D4A43;
+  color: #542424;
   font-family: "Aleo", serif;
 }
 
@@ -92,6 +92,7 @@ nav li a {
 /* Style rules for main content */
 main {
   padding: 2%;
+  color: #542424;
   font-family: "Aleo", serif;
 }
 
@@ -99,6 +100,7 @@ main p {
   font-size: 1.25em;
   margin: auto;
   text-align: center;
+  color: #542424;
   font-family: "Aleo", serif;
 }
 
