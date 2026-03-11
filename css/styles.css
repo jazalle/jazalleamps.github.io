@@ -162,22 +162,19 @@ aside {
   font-weight: bold; 
 }
 
-#button {
+#button, #button li a {
     list-style: none;      
-    padding: 0;            
-    margin: 0;            
+    padding: 10px 20px;            
+    margin: 4px 2px;;  
+    margin-bottom: 15px;          
     display: inline-block;         
     align-items: center;  
-    text-align: center;   
-    gap: 10px;          
-}
-
-#button li a {
+    text-align: center;     
     display: block;      
     background-color: #2F5052; 
     font-weight: bold; 
     color: #D3F7D0;          
-    padding: 15px 35px;        
+    padding: 10px 20px;        
     text-align: center;   
     text-decoration: none; 
     font-size: 1.2rem;
