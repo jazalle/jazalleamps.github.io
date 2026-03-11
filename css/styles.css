@@ -363,7 +363,9 @@ body {
 
 #wrapper {
     width: 1920px;
-    margin: 0 auto;
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 0 10px; 
 }
 
 main {
