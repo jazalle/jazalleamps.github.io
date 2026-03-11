@@ -114,15 +114,9 @@ main p {
   font-family: "Aleo", serif;
 }
 
-/* researched how to do alignment with W3Schools */
-article, section {
-  text-align: center;
-  display: flex;
-  justify-content: center; 
-  align-items: center;     
-  flex-direction: column;  
+main a {
+  text-decoration: none;
 }
-
 
 main h3 {
   padding-top: 2%;
@@ -130,6 +124,15 @@ main h3 {
 
 main ul {
   list-style-type: none;
+}
+
+/* researched how to do alignment with W3Schools */
+article, section {
+  text-align: center;
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  flex-direction: column;  
 }
 
 div {
@@ -173,6 +176,7 @@ aside {
   font-weight: bold; 
 }
 
+/* button made with W3Schools */
 #button {
     list-style: none;      
     padding: 10px 20px;            
@@ -216,60 +220,6 @@ figcaption {
   text-align: center;
   font-family: "Aleo", serif;
 }
-
-#example {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  margin: auto;
-}
-
-#info ul {
-  margin-left: 10%;
-}
-
-#contact {
-  text-align: center;
-}
-
-#contact aside {
-  color: #2D4A43;
-  font-family: "Audiowide", sans-serif;
-  text-align: center;
-  font-size: 2.5em;
-  font-weight: bold; 
-}
-
-#contact p {
-  font-size: 1.25em;
-  margin: auto;
-  text-align: center;
-  color: #542424;
-  font-family: "Aleo", serif; 
-}
-
-#contact a {
-  color: #542424;
-  text-decoration: none;
-}
-
-footer a {
-  color: #FFEDD9;
-  text-decoration: none;
-}
-
-.tel-link {
-  background-color: #FF9473;
-  padding: 2%;
-  width: 80%;
-  margin: 0 auto;
-}
-
-.tel-link a {
-  color: #FF9473;
-  text-decoration: none;
-  font-weight: bold;
-}
-
 
 /* Style rules for footer content */
 footer {
@@ -327,9 +277,18 @@ aside {
 
 }
 
-
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 1000px), print {
+
+  #wrapper {
+    max-width: 1200px; 
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+}
 
 /* Desktop Viewport: Style rules for nav area */
 nav li {
@@ -357,47 +316,35 @@ body {
     background: linear-gradient(#F2C177, #FFF7E3);
 }
 
+}
 
 /* Desktop Viewport: Style rules for main content */
-#info ul {
-    margin-left: 5%;
-}
-
-}
-
 
 /* Media Query for Large Desktop Viewports */
 @media screen and (min-width: 1921px), print {
   body {
     background: linear-gradient(#F2C177, #FFF7E3);
-}
+  }
 
-#wrapper {
+  #wrapper {
     width: 1920px;
     margin-left: auto; 
     margin-right: auto;
     padding: 0 10px; 
     margin-bottom: 20px; 
-}
+  }
 
-main {
+  main {
     background-color: #F2C177;
-}
+  }
 
-.grid {
-    grid-template-columns: auto auto;
+  .grid {
+    grid-template-columns: auto auto auto;
   }
 
   aside {
-    grid-column: 1 / span 2; 
+    grid-column: 1 / span 3; 
     font-size: 3em; 
   }
-
-#site-content, .img-captioned {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-decoration: none;
-}
 
 }
