@@ -154,36 +154,30 @@ aside {
   font-weight: bold; 
 }
 
-#button {
-  background-color: #2F5052;
+.button-list {
+    list-style: none;      
+    padding: 0;            
+    margin: 0;            
+    display: flex;         
+    justify-content: center; 
+    gap: 10px;            
 }
 
-#button ul {
-  list-style-type: none; 
-  padding: 10px 15px;
-  margin: 0;
-  display: flex; 
-  gap: 10px; 
-}
-
-#button li {
-  display: block;
-  font-size: 1.5em;
-  font-family: "Alexandria", sans-serif;
-  font-weight: bold;
-  text-align: center;
-}
-
-#button li a {
-  display: block;
-  color: #D3F7D0;
-  padding: 0.5em 2em;
-  text-decoration: none;
-  border: 1px solid #D3F7D0;
-  border-radius: 5px; 
-  text-align: center; 
-  cursor: pointer; 
-  transition: background-color 0.3s; 
+.button-list li a {
+    display: block;      
+    background-color: #2F5052; 
+    color: #D3F7D0;          
+    padding: 15px;        
+    text-align: center;   
+    text-decoration: none; 
+    font-size: 16px;
+    
+    /* Creates the round shape */
+    border-radius: 50%;    
+    width: 30px;          
+    height: 30px;
+    line-height: 30px;   
+    box-sizing: border-box; 
 }
 
 .button-list-container li a:hover {
