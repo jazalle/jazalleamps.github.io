@@ -154,6 +154,26 @@ aside {
   font-weight: bold; 
 }
 
+section ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+section li {
+  display: block;
+  border-top: 0.5px solid #FFEDD9;
+  font-size: 1.5em;
+  font-family: "Alexandria", sans-serif;
+  font-weight: bold;
+}
+
+section li a {
+  display: block;
+  color: #FFEDD9;
+  padding: 0.5em 2em;
+  text-decoration: none;
+}
+
 figure, img {
   border: none;
    max-height: 400px;
