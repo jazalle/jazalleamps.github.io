@@ -104,6 +104,7 @@ main {
   padding: 2%;
   color: #542424;
   font-family: "Aleo", serif;
+  t
 }
 
 main p {
@@ -127,9 +128,17 @@ div {
   justify-content: space-between;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
 /* Viewport for canva */
 .canva {
-    border: 5px solid #FF9473;
+  border: 5px solid #FF9473;
 	width: 95%;
 	height: 50%
 }
