@@ -114,6 +114,10 @@ main p {
   font-family: "Aleo", serif;
 }
 
+p {
+  text-align: center;
+}
+
 main h3 {
   padding-top: 2%;
 }
