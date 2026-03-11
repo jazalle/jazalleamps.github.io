@@ -114,12 +114,13 @@ main p {
   font-family: "Aleo", serif;
 }
 
+/* researched how to do alignment with W3Schools */
 article, section {
   text-align: center;
   display: flex;
-  justify-content: center; /* Centers children horizontally */
-  align-items: center;     /* Centers children vertically (if height is defined) */
-  flex-direction: column;  /* Stacks paragraphs vertically */
+  justify-content: center; 
+  align-items: center;     
+  flex-direction: column;  
 }
 
 
