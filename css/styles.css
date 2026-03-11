@@ -156,7 +156,8 @@ aside {
 
 figure, img {
   border: none;
-   max-width: 400px;
+   max-height: 400px;
+   width:auto;
    margin: 2% auto;
 }
 
