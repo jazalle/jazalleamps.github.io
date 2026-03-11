@@ -269,14 +269,12 @@ nav li a:hover {
 }
 
 .grid {
+    display: grid;
     grid-template-columns: auto auto;
     margin: auto;
+    text-align: center;
 }
 
-aside {
-    grid-column: 1 / span 2;
-    font-size: 2em;
-}
 
 body {
     background: linear-gradient(#F2C177, #FFF7E3);
