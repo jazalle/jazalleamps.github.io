@@ -257,7 +257,7 @@ th {
 }
 
 td:nth-child(odd), th:nth-child(odd) {
-  background-color: #216255;
+  background-color: #419b89;
 } 
 td:nth-child(even), th:nth-child(even) {
   background-color: #fe8d6b;
