@@ -231,12 +231,27 @@ figcaption {
   font-family: "Aleo", serif;
 }
 
-.canva {
-  
-}
 .canva:hover {
   transform: scale(1.05)
 }
+
+/* Style rules for Table */
+table, th, td {
+  border: 1px solid #542424;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+}
+
+td:nth-child(odd), th:nth-child(odd) {
+  background-color: #216255;
+} 
+td:nth-child(even), th:nth-child(even) {
+  background-color: #fe8d6b;
+}
+
 /* Style rules for footer content */
 footer {
   text-align: center;
