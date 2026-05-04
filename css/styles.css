@@ -56,7 +56,7 @@ img {
       height: auto;
     }
   }
-  
+
 /* Style rules to show mobile class and hide tab-desk class */
 .mobile {
   display: block;
@@ -231,6 +231,12 @@ figcaption {
   font-family: "Aleo", serif;
 }
 
+.canva {
+  
+}
+.canva:hover {
+  transform: scale(1.05)
+}
 /* Style rules for footer content */
 footer {
   text-align: center;
