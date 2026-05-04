@@ -47,7 +47,16 @@ img {
 }
 
 /* Style rules for mobile viewport */
-
+  @media screen and (max-width: 600px) {
+    body {
+      font-size: 16px; /* Recommended minimum for mobile readability */
+    }
+    img {
+      max-width: 100%; /* Prevents horizontal scrolling */
+      height: auto;
+    }
+  }
+  
 /* Style rules to show mobile class and hide tab-desk class */
 .mobile {
   display: block;
