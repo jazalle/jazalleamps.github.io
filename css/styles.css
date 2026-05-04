@@ -159,13 +159,14 @@ div {
 }
 
 /* Viewport for canva */
-.canva {
+.docs {
   border: 5px solid #FF9473;
     width: 100%; 
     height: 700px; 
 }
-
-
+.canva:hover {
+  transform: scale(1.05)
+}
 /* Style rules for class and id selectors */
 .link {
   color: #FF9473;
