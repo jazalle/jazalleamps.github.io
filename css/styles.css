@@ -17,6 +17,7 @@ html {
 
 h1 {
   font-size: 1.5rem; 
+  text-align: center;
 }
 
 header h1 {
@@ -271,6 +272,8 @@ td:nth-child(even), th:nth-child(even) {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  justify-content: center;
+  align-items: center;  
 }
 
 /* Hide the images by default */
