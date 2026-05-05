@@ -161,6 +161,12 @@ div {
     min-height: 100vh;
 }
 
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+}
+    
 /* Viewport for canva */
 .docs {
   border: 5px solid #FF9473;
