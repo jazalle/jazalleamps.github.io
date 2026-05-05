@@ -339,11 +339,13 @@ td:nth-child(even), th:nth-child(even) {
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  text-align: center;
   background-color: #71946086;
   border-radius: 50%;
-  display: inline-block;
   transition: background-color 0.6s ease;
+   display: flex;
+  justify-content: center; 
+  align-items: center;     
+  gap: 10px;   
 }
 
 .active, .dot:hover {
