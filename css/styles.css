@@ -132,7 +132,9 @@ main {
 
 main p {
   font-size: 1.25em;
+  width: 60%;   
   margin: auto;
+  margin-bottom: 1.5em;
   text-align: center;
   color: #542424;
   font-family: "Aleo", serif;
