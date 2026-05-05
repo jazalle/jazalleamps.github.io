@@ -233,7 +233,7 @@ aside {
 .bubble {
   display: inline-block; 
   background-color: #FFE8C4; 
-  padding: 10px 20px; 
+  padding: 10px 50px; 
   border-radius: 20px;  
 }
 
