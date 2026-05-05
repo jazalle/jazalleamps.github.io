@@ -223,6 +223,13 @@ aside {
   transform: scale(1.05); 
 }
 
+.bubble {
+  display: inline-block; 
+  background-color: #FFE8C4; 
+  padding: 10px 20px; 
+  border-radius: 20px;  
+}
+
 figure, img {
   border: none;
   max-height: 400px;
