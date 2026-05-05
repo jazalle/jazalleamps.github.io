@@ -298,8 +298,10 @@ td:nth-child(even), th:nth-child(even) {
 
 /* Position the "prev button" to the left */
 .prev {
-  left: 0;
-  border-radius: 3px 0 0 3px;
+  position: absolute;
+  top: 50%;          
+  left: 0;          
+  transform: translateY(-50%);
 }
 
 /* Position the "next button" to the right */
@@ -343,7 +345,6 @@ td:nth-child(even), th:nth-child(even) {
   border-radius: 50%;
   transition: background-color 0.6s ease;
    display: flex;
-  justify-content: center; 
   align-items: center;     
   gap: 10px;   
 }
