@@ -306,8 +306,10 @@ td:nth-child(even), th:nth-child(even) {
 
 /* Position the "next button" to the right */
 .next {
+  position: absolute;
+  top: 50%;   
   right: 0;
-  border-radius: 3px 0 0 3px;
+  transform: translateY(-50%);
 }
 
 /* On hover, add a black background color with a little bit see-through */
